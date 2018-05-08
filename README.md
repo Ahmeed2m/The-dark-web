@@ -20,6 +20,7 @@ and open TheDarkWeb.exe
 
 run from terminal/cmd 
 >cabal update
+
 >cabal install fungen
 
 
