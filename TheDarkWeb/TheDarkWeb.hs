@@ -33,15 +33,15 @@ removeObjectBG = Just [(39,127,58)]
 main :: IO ()
 main = do
   --getting the needed images pathes in bmp extention
-  backGround <- getDataFileName "ships/binaryBG.bmp"
-  hackerDown <- getDataFileName "ships/hacker.bmp"
-  hackerUp <- getDataFileName "ships/hacker3.bmp"
-  hackerLeft <- getDataFileName "ships/hacker2.bmp"
-  hackerRight <- getDataFileName "ships/hacker4.bmp"
-  attacker <- getDataFileName "ships/seeDee.bmp"
-  tor <- getDataFileName "ships/tor.bmp"
-  skull <- getDataFileName "ships/skull.bmp"
-  flashMemory <- getDataFileName "ships/flashMemory.bmp"
+  backGround <- getDataFileName "TheDarkWeb/binaryBG.bmp"
+  hackerDown <- getDataFileName "TheDarkWeb/hacker.bmp"
+  hackerUp <- getDataFileName "TheDarkWeb/hacker3.bmp"
+  hackerLeft <- getDataFileName "TheDarkWeb/hacker2.bmp"
+  hackerRight <- getDataFileName "TheDarkWeb/hacker4.bmp"
+  attacker <- getDataFileName "TheDarkWeb/seeDee.bmp"
+  tor <- getDataFileName "TheDarkWeb/tor.bmp"
+  skull <- getDataFileName "TheDarkWeb/skull.bmp"
+  flashMemory <- getDataFileName "TheDarkWeb/flashMemory.bmp"
 
   let 
     --winConfig: initial postision, window dimensions, window title
