@@ -1,6 +1,6 @@
 # How to run
 
-You must install fungen first in order to make this game work refer to the section below, then either on Windows or Linux open terminal/CMD in the folder directory and run
+In order to make this game work you must install fungen - refer to the section below, then either on Windows or Linux open terminal/CMD in the folder directory and run
 
 > stack install
 
